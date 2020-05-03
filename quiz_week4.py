@@ -25,5 +25,25 @@ print('{} to the power of {} is {}'.format(num2, num1, pow_num2))
 print('the max of {} and {} is {}'.format(pow_num1, pow_num2, max(max_num)))
 
 
+#Programming (method call and attribute reference)
+
+#Write a Python program that asks the user to input a string and a sub-string and outputs the number of occurrences of the sub-string in the string.
+
+#For example, here is a sample program run:
+
+#Enter a string >banana
+#Enter a substring >na
+#the substring "na" appears 2 times in "banana"
+
+
+user_input1 = input('Enter a string >')
+user_input2 = input('Enter a substring >')
+result = user_input1.count(user_input2)
+print('the substring "{}" appears {} times in "{}"'.format(user_input2,result,user_input1))
+
+
+
+
+
 
 
